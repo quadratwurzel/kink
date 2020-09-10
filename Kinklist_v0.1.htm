@@ -553,7 +553,7 @@
 * Masochist
 
 #Bodies
-(General)
+(Self, Partner)
 * Hairy
 * Trimmed
 * Partially Shaved
@@ -566,9 +566,9 @@
 * Medium smell (2 days)
 * Heavy smell (3+ days)
 
-#Clothing
+#Clothing 
 (Self, Partner)
-* Clothed sex
+* Fully Clothed
 * Lingerie
 * Stockings
 * Socks
@@ -577,6 +577,7 @@
 * Latex
 * Uniform / costume
 * Cross-dressing
+* Nude
 
 #Groupings
 (General)
@@ -595,10 +596,11 @@
 * Blowjob
 * Deep throat
 * Cunnilingus
+* Footjob
 * Face-sitting
 * Edging
 * Teasing
-* JOI, SI
+* JOI
 
 #Ass play
 (Giving, Receiving)
@@ -707,6 +709,7 @@
 * Cum on Face
 * Cum on Body
 * Snowballing
+* Felching
 * Swallowing Semen
 * Used Condoms
 
@@ -814,8 +817,12 @@
 
 #Pain
 (Giving, Receiving)
-* Mild
-* Moderate
+*None
+* Very Mild
+* Discomforting
+* Tolerable
+* Distressing
+* Intense
 * Severe
 * Extreme
 
@@ -1097,7 +1104,10 @@
                             context.font = "bold 18px Arial";
                             context.fillText(drawCall.data.category, drawCall.x, drawCall.y + 5);
                             
-                            var fieldsStr = drawCall.data.fields.join(', ');
+                            var fieldsStr = drawCall.data.fields.
+			    
+			    
+			    n(', ');
                             context.font = "italic 12px Arial";
                             context.fillText(fieldsStr, drawCall.x, drawCall.y + 20);
                         },
